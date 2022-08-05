@@ -1,0 +1,10 @@
+<resources>
+    <!--
+        This is a string resources file, where you can specify all of your UI strings.
+        It allows you to manage all of your UI strings in a single location, which makes
+        them easier to find, update, and localize.
+    -->
+    <string name="app_name">MyFirstApp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+</resources>

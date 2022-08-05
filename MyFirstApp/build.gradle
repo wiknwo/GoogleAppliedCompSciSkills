@@ -1,0 +1,31 @@
+/**
+ * BUILD.GRADLE FILE FOR PROJECT
+ * There are two files with this name: one for the project, "Project: My_First_App," and one for the
+ * app module, "Module: My_First_App.app." Each module has its own build.gradle file, but this project
+ * currently has just one module. Use each module's build.gradle file to control how the Gradle plugin
+ * builds your app. For more information about this file, see Configure your build.
+ * */
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.2"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
